@@ -85,6 +85,22 @@ function App() {
         </div>
         <main>
 
+          <div className="header-block" id='contents'>
+            <h1 className='header-back'>Содержание</h1>
+            <h1 className='header-text'>Содержание</h1>
+          </div>
+          <section className='contents'>
+            <ul>
+              <li><a href="#intro">Вступление</a></li>
+              <li><a href="#virtual-meet">Виртуальные встречи</a></li>
+              <li><a href="#workplace">3D-рабочие места</a></li>
+              <li><a href="#avatars">Аватары</a></li>
+              <li><a href="#conclusion">Заключение</a></li>
+              <li><a href="#sources">Список источников</a></li>
+              <li className='mute-container' onClick={() => { audio.current && (audio.current.muted = true) }}><Confcp116 variant="32x32_4" /></li>
+            </ul>
+          </section>
+
           <div className="header-block" id='intro'>
             <h1 className='header-back'>Вступление</h1>
             <h1 className='header-text'>Вступление</h1>

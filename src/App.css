@@ -177,6 +177,23 @@ a {
   font-size: 12px !important;
 }
 
+.contents,
+#contents {
+  display: none;
+}
+
+#contents .header-back {
+  text-align: left;
+  display: flex;
+}
+
+.contents>ul {
+  font-family: "Courier";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 main {
   padding: 20px;
   max-width: 950px;
@@ -316,4 +333,27 @@ h3 {
 
 .source-list {
   list-style-type: decimal;
+}
+
+@media screen and (max-width: 920px) {
+  .nav-container {
+    display: none;
+  }
+
+  .web-icons {
+    display: none;
+  }
+
+  .container {
+    display: block;
+  }
+
+  section {
+    font-size: 14px;
+  }
+
+  .contents,
+  #contents {
+    display: block;
+  }
 }
