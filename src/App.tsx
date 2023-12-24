@@ -14,12 +14,12 @@ function App() {
 
   const defaultImages = [
     { title: "Work in the age of Web 3.0", show: true, url: "./intro.jpg" },
-    { title: "Realti VR", show: true, url: "longread/realti-vr.jpg" },
-    { title: "Work Meeting", show: true, url: "/zoom-meeting.jpg" },
-    { title: "VR", show: true, url: "/vr-workplace.jpg" },
-    { title: "Meetings Data", show: true, url: "/meeting-data.webp" },
-    { title: "Dangers of meetings", show: true, url: "/virtual-meeting.gif" },
-    { title: "Future of work", show: true, url: "/future.webp" },
+    { title: "Realti VR", show: true, url: "./realti-vr.jpg" },
+    { title: "Work Meeting", show: true, url: "./zoom-meeting.jpg" },
+    { title: "VR", show: true, url: "./vr-workplace.jpg" },
+    { title: "Meetings Data", show: true, url: "./meeting-data.webp" },
+    { title: "Dangers of meetings", show: true, url: "./virtual-meeting.gif" },
+    { title: "Future of work", show: true, url: "./future.webp" },
   ];
 
   const [isTitleOpen, setIsTitleOpen] = useState(true);
